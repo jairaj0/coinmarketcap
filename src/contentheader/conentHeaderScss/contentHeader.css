@@ -1,0 +1,85 @@
+.left_contentheader {
+  width: 55%;
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Arial , sans-serif;
+}
+
+.left_contentheader .slash {
+  color: var(--info-icon-color);
+}
+
+.right_contentheader {
+  color: var(--text-color);
+}
+
+.right_contentheader span {
+  margin-right: 3px;
+  color: var(--text-color-sub);
+}
+
+.watchlist_portfolio {
+  width: 25%;
+  text-transform: capitalize;
+}
+
+.watchlist_portfolio .contentHeaderBox {
+  background: var(--theme-light-blue-color);
+}
+
+.watchlist_portfolio .contentHeaderBox:hover {
+  background: var(--theme-light-color);
+}
+
+.cdnpby {
+  width: 70%;
+}
+
+.right_contentheader {
+  width: 21%;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Arial , sans-serif;
+}
+
+.right_contentheader .contentHeaderBox {
+  background: var(--theme-light-blue-color);
+}
+
+.right_contentheader .contentHeaderBox:hover {
+  background: var(--theme-light-color);
+}
+
+.right_contentheader .count {
+  margin-left: 5px;
+}
+
+.contentHeaderBox {
+  padding: .5rem;
+  border-radius: .5rem;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.contentHeaderBox span {
+  margin-right: 3px;
+  color: var(--text-color-sub);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.contentHeaderBox:hover span {
+  color: var(--text-color);
+}
+
+.contentHeaderBox:hover {
+  background: var(--theme-light-blue-color);
+}
+
+.crypto_active {
+  color: var(--color-primary-blue);
+  background: var(--theme-light-blue-color);
+}
+/*# sourceMappingURL=contentHeader.css.map */

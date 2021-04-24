@@ -1,0 +1,61 @@
+.info_end {
+  margin-top: 10px;
+  border-bottom: 1px solid var(--control-border-color);
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 1rem 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info_end .info_end_opt {
+  width: 100%;
+}
+
+.info_end .info_end_opt .counting {
+  width: 30%;
+}
+
+.info_end .info_end_opt .counting .count, .info_end .info_end_opt .counting .left_arrow, .info_end .info_end_opt .counting .right_arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.info_end .info_end_opt .counting .count:hover {
+  background: var(--control-background-color);
+}
+
+.info_end .info_end_opt .counting .count_active {
+  background: var(--blue);
+}
+
+.info_end .info_end_opt .counting .count_active:hover {
+  background: var(--blue);
+}
+
+.info_end .info_end_opt .show_rows_div {
+  background: var(--control-background-color);
+  padding: .5rem;
+  border-radius: .5rem;
+  min-width: 60px;
+  margin-left: 10px;
+}
+
+.info_end .info_end_RM {
+  width: 100%;
+  margin-top: 60px;
+  font-size: 12px;
+  color: #58667e;
+}
+
+.info_end .info_end_RM .info_end_RM_btn {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*# sourceMappingURL=infoEnd.css.map */

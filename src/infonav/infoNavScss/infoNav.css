@@ -1,0 +1,68 @@
+.infoNav {
+  margin-top: 20px;
+  font-weight: 600;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.infonav {
+  color: var(--text-color);
+  font-size: 12px;
+  background: var(--bg-color);
+  padding: .7rem 2.87rem;
+  border-bottom: 1px solid var(--control-border-color);
+  border-top: 1px solid var(--control-border-color);
+  text-transform: capitalize;
+}
+
+.infonav .info_icon {
+  color: var(--text-color-sub);
+  font-size: 15px;
+}
+
+.infonav span {
+  margin-left: 5px;
+}
+
+.name, .name_value {
+  width: 150px;
+}
+
+.price, .price_value {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 150px;
+}
+
+.daily, .daily_value, .week, .week_value {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100px;
+}
+
+.market_cap, .market_cap_value, .volume, .volume_value, .circulating, .circulating_value, .lastdays {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 150px;
+}
+
+.volume_value {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.volume_value .volume_value_btm {
+  color: var(--text-color-sub);
+  font-size: 12px;
+}
+/*# sourceMappingURL=infoNav.css.map */

@@ -1,0 +1,87 @@
+.left_contentheader{
+    width: 55%;
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial , sans-serif;
+    
+    .slash{
+        color: var(--info-icon-color);
+    }
+
+    
+}
+
+.right_contentheader{
+    color: var(--text-color);
+
+    span{
+        margin-right: 3px;
+        color: var(--text-color-sub);
+    }
+}
+
+.watchlist_portfolio{
+    width: 25%;
+    text-transform: capitalize;
+
+    .contentHeaderBox{
+        background: var(--theme-light-blue-color);
+    }
+    .contentHeaderBox:hover{
+        background: var(--theme-light-color);
+    }
+}
+
+.cdnpby{
+    width: 70%;
+}
+
+.right_contentheader{
+    width: 21%;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial , sans-serif;
+
+    .contentHeaderBox{
+        background: var(--theme-light-blue-color);
+    }
+    .contentHeaderBox:hover{
+        background: var(--theme-light-color);
+    }
+
+    .count{
+        margin-left: 5px;
+    }
+}
+
+.contentHeaderBox{
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: all .3s ease-in-out;
+
+
+        cursor: pointer;
+
+        span{
+            margin-right: 3px;
+            color: var(--text-color-sub);
+            transition: all .2s ease-in-out;
+        }
+
+}
+
+.contentHeaderBox:hover span{
+    color: var(--text-color);
+}
+.contentHeaderBox:hover{
+    background: var(--theme-light-blue-color);
+}
+
+
+
+
+.crypto_active{
+    color: var(--color-primary-blue);
+    background: var(--theme-light-blue-color);
+}

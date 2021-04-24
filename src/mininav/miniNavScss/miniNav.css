@@ -1,0 +1,66 @@
+.top_mini_nav {
+  background: var(--bg-color);
+  border-bottom: 1px solid var(--control-border-color);
+}
+
+.mini_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+.mini_nav_title {
+  color: var(--color-light-neutral-6);
+  font-weight: 500;
+  cursor: default;
+  font-size: 11px;
+}
+
+.mini_nav_value {
+  color: var(--color-primary-blue);
+  margin-left: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  font-size: 11px;
+}
+
+.mini_nav_value:hover {
+  color: var(--cyan);
+}
+
+.lang, .currency, .theme {
+  background: var(--control-background-color);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-color);
+  padding: .3rem 1rem;
+  margin: .3rem 0;
+  border-radius: .3rem;
+  cursor: pointer;
+}
+
+.lang:hover, .currency:hover, .theme:hover {
+  background: var(--theme-light-blue-color);
+}
+
+.currency {
+  margin: 0 1rem;
+  padding: .3rem .8rem;
+}
+
+.currency span {
+  margin: 0 .2rem;
+}
+
+.theme {
+  padding: .3rem .6rem;
+}
+/*# sourceMappingURL=miniNav.css.map */

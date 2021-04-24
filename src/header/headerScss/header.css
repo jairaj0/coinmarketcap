@@ -1,0 +1,61 @@
+.header {
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+.header_title_txt {
+  font-size: 24px;
+  color: var(--text-color);
+  cursor: default;
+  margin-bottom: 10px;
+}
+
+.header_dis {
+  font-size: 14px;
+  color: var(--color-light-neutral-6);
+  cursor: default;
+}
+
+.header_dis .header_status {
+  color: var(--up-color);
+  font-weight: 600;
+}
+
+.header_read_more {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header_slider {
+  width: 55%;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.header_slider::-webkit-scrollbar {
+  display: none;
+}
+
+.header_btn {
+  position: absolute;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 20px;
+  width: 40px;
+  height: 100px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--color-light-neutral-1)), to(#00000000));
+  background: linear-gradient(90deg, var(--color-light-neutral-1) 20%, #00000000);
+  display: none;
+}
+
+.header_right_btn {
+  right: 2%;
+  width: 50px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, var(--color-light-neutral-1)), to(#00000000));
+  background: linear-gradient(-90deg, var(--color-light-neutral-1) 50%, #00000000);
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=header.css.map */

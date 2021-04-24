@@ -1,0 +1,126 @@
+.main_nav{
+    background: var( --bg-color);
+    padding: 1rem 0;
+
+// ------------------------- left_nav-------------------------
+
+    .left_nav{
+        width: 65%;
+        color: var(--text-color);
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 600;
+        
+        div{
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+        }
+
+        div:hover{
+            color: var(--color-primary-blue);
+        }
+    }
+}
+
+.nav_notification, .nav_notification_mini{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--cyan);
+    opacity: .3;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    animation: nav_notification 1s infinite alternate-reverse;
+}
+
+.nav_notification_mini{
+    width: 8px;
+    height: 8px;
+    animation: none;
+    opacity: 1;
+    background: var(--cyan);
+    left: -11.8px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+@keyframes nav_notification{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+// -----------------------------right_nav----------------------
+
+.right_nav{
+    width: 30%;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+    div{
+        cursor: pointer;
+    }
+
+    .bell{
+        font-size: 16px;
+        border-radius: 50%;
+        color: var(--text-color-sub);
+        padding: .6rem .8rem;
+        transition: all .3s ease-in-out;
+    }
+    
+    .bell:hover{
+        background: var(--control-background-color);
+    }
+
+    .sign_up , .log_in{
+        background: var(--blue);
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+        transition: .2s ease-in-out;
+    }
+
+    .log_in{
+        background: none;
+    }
+
+    .log_in:hover{
+        background: var(--control-background-color);
+    }
+
+    .sign_up:hover{
+        background: var(--color-primary-blue);
+    }
+}
+
+
+.search_box{
+    background: var(--control-background-color);
+    width: 45%;
+    padding: .6rem 1rem;
+    border-radius: .5rem;
+    color: var(--text-color-sub);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+
+    .search{
+        font-size: 12px;
+        font-weight: 600;
+        width: 100px;
+    }
+
+    .slash{
+        background: var(--info-icon-color);
+        color: var(--text-color);
+        padding: .2rem .5rem;
+        border-radius: .2rem;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
